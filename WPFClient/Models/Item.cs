@@ -2,7 +2,7 @@
 {
     public class Item
     {
-        public char Name { get; set; }
+        public string Name { get; set; }
 
         public bool Selected { get; set; }
 

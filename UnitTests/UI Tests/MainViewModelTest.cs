@@ -48,8 +48,8 @@ namespace UnitTests
         public void RemoveItemTest()
         {
             //Arrange
-            var itemA = new Item { Name = 'a' };
-            var itemB = new Item { Name = 'b' };
+            var itemA = new Item { Name = "apple" };
+            var itemB = new Item { Name = "orange" };
 
             _target.Items = new ObservableSet<Item> { itemA, itemB };
 
@@ -66,8 +66,8 @@ namespace UnitTests
         public void RemoveItemInTransactionTest()
         {
             //Arrange
-            var itemA = new Item { Name = 'a' };
-            var itemB = new Item { Name = 'b' };
+            var itemA = new Item { Name = "apple" };
+            var itemB = new Item { Name = "orange" };
             _target.Items = new ObservableSet<Item> { itemA, itemB };
             string transaction = itemA.Name + "" + itemB.Name;
             _target.Transactions = new ObservableCollection<string> { transaction };
@@ -85,9 +85,9 @@ namespace UnitTests
         public void AddTransactionTest()
         {
             //Arrange
-            var itemA = new Item { Name = 'a', Selected = true };
-            var itemB = new Item { Name = 'b' };
-            var itemC = new Item { Name = 'c', Selected = true };
+            var itemA = new Item { Name = "apple" };
+            var itemB = new Item { Name = "orange" };
+            var itemC = new Item { Name = "pear", Selected = true };
 
             _target.Items = new ObservableSet<Item> { itemA, itemB, itemC };
 
@@ -103,8 +103,8 @@ namespace UnitTests
         public void CanAddTransactionWhenNoItemsSelectedTest()
         {
             //Arrange
-            var itemA = new Item { Name = 'a' };
-            var itemB = new Item { Name = 'b' };
+            var itemA = new Item { Name = "apple" };
+            var itemB = new Item { Name = "orange" };
 
             _target.Items = new ObservableSet<Item> { itemA, itemB };
 
@@ -116,8 +116,8 @@ namespace UnitTests
         public void CanAddTransactionTest()
         {
             //Arrange
-            var itemA = new Item { Name = 'a', Selected = true };
-            var itemB = new Item { Name = 'b' };
+            var itemA = new Item { Name = "apple", Selected = true };
+            var itemB = new Item { Name = "orange" };
 
             _target.Items = new ObservableSet<Item> { itemA, itemB };
 
@@ -129,8 +129,8 @@ namespace UnitTests
         public void DeleteTransactionTest()
         {
             //Arrange
-            var transaction = "ab";
-            _target.Transactions = new ObservableCollection<string> { transaction, "cd" };
+            var transaction = "apple";
+            _target.Transactions = new ObservableCollection<string> { transaction, "orange" };
 
             //Act
             _target.SelectedTransaction = transaction;
@@ -144,8 +144,8 @@ namespace UnitTests
         public void ClearAllTransactionsTest()
         {
             //Arrange
-            var transaction = "ab";
-            _target.Transactions = new ObservableCollection<string> { transaction, "cd" };
+            var transaction = "apple";
+            _target.Transactions = new ObservableCollection<string> { transaction, "orange", };
 
             //Act
             _target.SelectedTransaction = transaction;

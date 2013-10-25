@@ -31,15 +31,7 @@
                 <StackPanel Margin="0,0,0,-139">
                     <StackPanel Orientation="Horizontal">
                         <Label Content="Item" Height="28" Name="label1" />
-                        <TextBox Height="23" Width="120" MaxLength="1" Validation.ErrorTemplate="{StaticResource validationTemplate}">
-                            <TextBox.Text>
-                                <Binding Path="NewItem" UpdateSourceTrigger="PropertyChanged" >
-                                    <Binding.ValidationRules>
-                                        <local:CharacterOnlyRule/>
-                                    </Binding.ValidationRules>
-                                </Binding>
-                            </TextBox.Text>
-                        </TextBox>
+                        <TextBox Height="23" Width="120" />
                         <Label Content="{Binding Error}"  Height="28" Name="label4" Foreground="Red" />
                     </StackPanel>
                     <Button Content="Add Item" Height="23" Name="button1" Width="75" Command="{Binding AddItem}"/>

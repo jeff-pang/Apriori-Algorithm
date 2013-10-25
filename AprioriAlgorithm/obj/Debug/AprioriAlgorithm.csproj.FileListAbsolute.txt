@@ -13,3 +13,7 @@ D:\Git\Apriori Source Code\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.pdb
 D:\Git\Apriori Source Code\AprioriAlgorithm\obj\Debug\ResolveAssemblyReference.cache
 D:\Git\Apriori Source Code\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.dll
 D:\Git\Apriori Source Code\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.pdb
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.dll
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.pdb
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.dll
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.pdb

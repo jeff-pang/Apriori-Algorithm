@@ -8,7 +8,7 @@ namespace WPFClient
         public override ValidationResult Validate(object value, System.Globalization.CultureInfo cultureInfo)
         {
             string input = value as string;
-            Regex reg = new Regex("^[a-zA-Z]+$");
+            Regex reg = new Regex("(^[a-zA-Z]+$)*");
 
             if (input == null || !reg.IsMatch(input))
             {

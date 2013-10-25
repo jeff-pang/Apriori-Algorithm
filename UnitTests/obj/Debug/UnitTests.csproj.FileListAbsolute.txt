@@ -30,3 +30,17 @@ D:\Git\Apriori Source Code\UnitTests\bin\Debug\AprioriAlgorithm_Accessor.pdb
 D:\Git\Apriori Source Code\UnitTests\obj\Debug\ResolveAssemblyReference.cache
 D:\Git\Apriori Source Code\UnitTests\obj\Debug\UnitTests.dll
 D:\Git\Apriori Source Code\UnitTests\obj\Debug\UnitTests.pdb
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\bin\Debug\AprioriAlgorithm.dll
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\bin\Debug\Moq.dll
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\bin\Debug\WPFClient.exe
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\bin\Debug\AprioriAlgorithm.pdb
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\bin\Debug\WPFClient.pdb
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\bin\Debug\Moq.pdb
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\bin\Debug\Moq.xml
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\bin\Debug\AprioriAlgorithm_Accessor.dll
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\bin\Debug\AprioriAlgorithm_Accessor.pdb
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\Jeff\Documents\Visual Studio 2010\Projects\Apriori-Algorithm\UnitTests\obj\Debug\UnitTests.pdb

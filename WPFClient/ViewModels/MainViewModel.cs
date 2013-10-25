@@ -179,7 +179,7 @@ namespace WPFClient
 
         private void AddItemExecute()
         {
-            Items.Add(new Item { Name = NewItem[0] });
+            Items.Add(new Item { Name = NewItem });
             NewItem = string.Empty;
         }
 
@@ -209,8 +209,12 @@ namespace WPFClient
 
         private void AddTransactionExecute()
         {
-            IEnumerable<char> selectedItems = Items.Where(i => i.Selected).Select(i => i.Name);
-            Transactions.Add(new string(selectedItems.ToArray()));
+            IEnumerable<string> selectedItems = from i in Items select i.Name;
+
+            foreach (string i in selectedItems)
+            {
+                Transactions.Add(i);
+            }
         }
 
         private bool CanAddTransactionExecute()
